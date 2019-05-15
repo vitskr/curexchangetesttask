@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 
 using Exchange.Types;
@@ -14,7 +15,9 @@ namespace Exchange.Repository
     {
         public IEnumerable<Currency> GetCurrencies()
         {
-            var content = File.ReadAllText(@"Data\currencies.json");
+            var dir =  Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var jsonFile = Path.Combine(dir, @"Data\currencies.json");
+            var content = File.ReadAllText(jsonFile);
 
             return
                 JsonConvert
