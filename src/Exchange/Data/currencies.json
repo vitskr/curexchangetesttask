@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "Danish kroner",
+    "ISO": "DKK",
+    "Rate": 1.0000
+  },
+  {
+    "name": "Euro",
+    "ISO": "EUR",
+    "Rate": 7.4394
+  },
+  {
+    "name": "Amerikanske dollar",
+    "ISO": "USD",
+    "Rate": 6.6311
+  },
+  {
+    "name": "Britiske pund",
+    "ISO": "GBP",
+    "Rate": 8.5285
+  },
+  {
+    "name": "Svenske kroner",
+    "ISO": "SEK",
+    "Rate": 0.7610
+  },
+  {
+    "name": "Norske kroner",
+    "ISO": "NOK",
+    "Rate": 0.7840
+  },
+  {
+    "name": "Schweiziske franc",
+    "ISO": "CHF",
+    "Rate": 6.8358
+  },
+  {
+    "name": "Japanske yen",
+    "ISO": "JPY",
+    "Rate": 0.059740
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exchange": {
+      "commandName": "Project",
+      "commandLineArgs": "EUR/DUK 1"
+    }
+  }
+}
