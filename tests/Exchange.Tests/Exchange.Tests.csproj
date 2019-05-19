@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Exchange\Exchange.csproj" />
+    <ProjectReference Include="..\..\src\c#\Exchange\Exchange.csproj" />
   </ItemGroup>
 
 </Project>
